@@ -21,3 +21,5 @@ Github
 [x] Créer une branche : git checkout -b fonction-de-la-branche/description-de-la-branch
 [x] Créer une nouvelle branche sur le remote : git push -u origin nom-de-la-branch
 Libs
+
+MODIF MODIF
