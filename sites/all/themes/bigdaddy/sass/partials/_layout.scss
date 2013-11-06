@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------------
+// --- LAYOUT file defining your main regions
+// ----------------------------------------------------------------------
+
+
+// GLOBAL
+// -------------------------------------------------------------------
+#global {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+// HEADER
+// -------------------------------------------------------------------
+#site-header {
+  padding: 20px;
+  min-height: 150px;
+  position: relative;
+}
+
+// MIDDLE CONTENT
+// -------------------------------------------------------------------
+#middle-content {
+  width: 100%;
+  padding: 20px;
+}
+
+body.sidebar-second #middle-content {
+  float: left;
+  max-width: 68.33%;
+  @include respond-to(handhelds) { max-width: 100%; }
+}
+
+// SIDEBAR SECOND
+// -------------------------------------------------------------------
+#sidebar-second {
+  float: left;
+  max-width: 31.67%;
+  padding: 20px;
+  @include respond-to(handhelds) { max-width: 100%; }
+}
+
+// FOOTER
+// -------------------------------------------------------------------
+#site-footer { text-align: center;font-size: 11px; }

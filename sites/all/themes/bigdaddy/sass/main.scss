@@ -1,0 +1,24 @@
+// ----------------------------------------------------------------------
+// --- MAIN file importing all your existing SASS files
+// ----------------------------------------------------------------------
+
+
+// VENDORS
+// --------------------------------------------------
+@import "vendor/normalize";
+@import "vendor/compass";
+
+// CONFIG
+// --------------------------------------------------
+@import "config";
+
+// PARTIALS
+// --------------------------------------------------
+@import "mixins";
+@import "base";
+@import "global";
+@import "layout";
+@import "drupal";
+@import "forms";
+@import "animations";
+@import "theme-settings";

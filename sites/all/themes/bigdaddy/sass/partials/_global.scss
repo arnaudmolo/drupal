@@ -1,0 +1,33 @@
+// ----------------------------------------------------------------------
+// --- GLOBAL file
+// ----------------------------------------------------------------------
+
+
+// Help for using SUBCOMPONENTS and SUBCLASSES (also called modifier)
+// -------------------------------------------------------------------
+// - SUBCOMPONENTS are the components or elements within a specific component AND USES "-" (single hyphen)
+//  Example: .nav-item
+// - SUBCLASSES are used to further style a component beyond it's default style AND USES "--" (double hyphen)
+//  Example: .block--secondary
+// ==> This naming convention is part of the SMACSS method (for more info, check http://smacss.com/)
+
+
+// Navigation
+// -------------------------------------------------------------------
+[role="navigation"] {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  li {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 2em;
+    a {
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+  @include respond-to(handhelds) { position: relative;left: 0;top: auto; }
+}
+

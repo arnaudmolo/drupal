@@ -1,0 +1,23 @@
+// ----------------------------------------------------------------------
+// --- ANIMATION file listing all your animation functions
+// ----------------------------------------------------------------------
+
+// Currently, Compass has no support for animation mixins, instead you can use this mixin library http://bourbon.io/
+
+// Example
+@keyframes my-animation {
+from {background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-webkit-keyframes my-animation {
+ from {background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-moz-keyframes my-animation {
+ from {background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-ms-keyframes my-animation {
+ from {background-position: center 0;}
+ to {background-position: center 1000px;}
+}

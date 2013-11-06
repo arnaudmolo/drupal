@@ -1,0 +1,79 @@
+// ----------------------------------------------------------------------
+// --- BASE file defining only pure HTML elements
+// ----------------------------------------------------------------------
+
+// Here a few magic number for creating your typographic scale/hierarchy 
+//
+// Golden ratio = 1,618 (see: http://net.tutsplus.com/tutorials/other/the-golden-ratio-in-web-design/)
+// European Typeface Scale: 6,7,8,9,10,11,12,14,16,18,21,24,36,48,60,72
+// Fibonacci sequence: 16,24,40,64,104 (achieve the divine proportion and is applied for more aesthetically design)
+//
+
+body {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $base-font-color;
+  font-family: $base-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: normal;
+  margin: 0;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.12em;
+  margin-bottom: 5px;
+} 
+
+h5 {
+  font-size: 16px;
+  line-height: 1.1em;
+  margin-bottom: 7px;
+} 
+
+h6 {
+  font-size: 14px;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: $base-font-size;
+  margin-bottom: 1.5em;
+} 
+
+ul, ol {
+  list-style-position: outside;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  color: #ccc;
+  outline: none;
+}
