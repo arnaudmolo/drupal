@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/petit-palais/sites/all/libraries/ckeditor/';
