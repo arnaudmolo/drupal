@@ -1,0 +1,368 @@
+/*style css*/
+
+/* 1. CSS RESET
+================================================================================ */
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption,center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp { border: 0; margin: 0; padding: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+b, strong {font-weight: bold;}
+img {color: transparent; font-size: 0; vertical-align: middle; -ms-interpolation-mode: bicubic;}
+ol, ul {list-style: none;}
+li {display: list-item;}
+table {border-collapse: collapse; border-spacing: 0;}
+th, td, caption {font-weight: normal; vertical-align: top; text-align: left;}
+q {quotes: none;}
+q:before, q:after {content: ''; content: none;}
+sub, sup, small {font-size: 75%;}
+sub,sup {line-height: 0; position: relative; vertical-align: baseline;}
+sub {bottom: -0.25em;}
+sup {top: -0.5em;}
+svg {overflow: hidden;}
+a:active{outline: none;}
+a:focus{ outline: none;}
+:focus {outline: 0;}
+
+/* FONTS 
+============================================= */
+@font-face {
+	font-family: 'HelveticaRoman';
+	src: url('fonts/helvetica/HelveticaLTStd/HelveticaLTStd-Roman.otf');
+        src: url('fonts/helvetica/HelveticaLTStd/HelveticaLTStd-Roman.otf') format('truetype');
+        font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+	font-family: 'BodoniItalic';
+	src: url('fonts/bodoni/BodoniItalicBT.ttf');
+        src: url('fonts/bodoni/BodoniItalicBT.ttf') format('truetype');
+        font-weight: normal;
+		font-style: italic;
+}
+
+/* STRUCTURE
+============================================== */
+.container_12{
+	width:1024px;
+	margin: 0 auto;
+}
+body{
+	font-family: "HelveticaRoman";
+	font-size: 14px;
+}
+.clear{
+	clear: both;
+}
+/* STYLES HOME PAGE 
+============================================== */
+/* HEADER
+============================================= */
+header{
+	background: url('img/background/black.png') #000;
+	background-repeat: repeat;
+	border-top:3px solid #fff;
+	height: 61px;
+}
+#logo{
+	margin:6px 7px 7px 27px;
+	float: left;
+}
+nav{
+	padding-left: 20px;
+	display: inline-block;
+	height: 60px;
+	overflow: hidden;
+}
+.main-menu li{
+	float: left;
+}
+.main-menu li a{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding:21px 9px 20px;
+	line-height: 60px;
+	font-family: "Lato";
+	font-weight: 400;
+}
+.main-menu li a:hover{
+	background-color:#fff;
+	border-bottom:3px solid #f7941d;
+	color: #000;
+}
+.search{
+	display: inline-block;
+	width: 30px;
+	height: 41px;
+	overflow: hidden;
+	margin-left: 30px;
+}
+/*CONTENT
+============================================= */
+#pageWrapper{
+	background: url(img/background/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#content{
+	margin: 0 auto;
+	width: 976px;
+	padding: 27px 15px 20px 13px;
+	background: url('img/background/light.png');
+	background-repeat: repeat;
+	overflow: hidden;
+}
+#sidebar{
+	width:200px;
+	padding-right: 17px;
+	float: left;
+}
+.contentPage{
+	float: left;
+	width: 759px;
+}
+/* SIDEBAR
+======================================= */
+nav.sidebarMenu {
+	border-left:3px solid #f7941d;
+	height: 30px;
+}
+nav.sidebarMenu ul li{
+	float: left;
+}
+nav.sidebarMenu ul li a{
+	color:#35322c;
+	font-size: 17px;
+	text-decoration: none;
+	padding:0 10px;
+	font-family: "HelveticaRoman";
+}
+nav.sidebarMenu ul li:first-child a{
+	border-right:1px solid #dadada;
+}
+ul.sideLiens{
+	margin-top: 10px;
+}
+ul.sideLiens li:first-child a{
+	text-transform: uppercase;
+	color: #7b4c15;
+	font-size: 13px;
+	font-family: "HelveticaRoman";
+}
+ul.sideLiens li{
+	padding:8px 0 8px 11px;
+}
+ul.sideLiens li a{
+	text-decoration: none;
+	color: #35322c;
+	font-size: 13px;
+	font-family: "HelveticaRoman";
+}
+
+ul.sideLiens li:nth-child(2n+1){
+	background-color:rgba(213,211,211, 0.3);
+}
+.sideBlockInfo h3{
+	color:#35322c;
+	font-size: 14px;
+	margin:25px 0 25px;
+	position: relative;
+	padding-left: 32px;
+	line-height: 27px;
+}
+.sideBlockInfo h3:before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 3px;
+	display: block;
+	height: 28px;
+	width: 24px;
+	background: url('img/home/info_icone.png') 10px 0px;
+	background-repeat: no-repeat;
+}
+.sideBlockInfo p{
+	color: #35322c;
+	line-height: 22px;
+	font-size: 12px;
+}
+.infoPr{
+	background-color:rgba(213,211,211, 0.3);
+	padding:10px 2px 10px 10px;
+	margin-bottom: 25px;
+}
+.infoOuv{
+	margin-bottom: 35px;
+}
+.infoNoct span{
+	color: #c82d00;
+	font-size: 12px;
+}
+.infoNoct p{
+	margin-top: 35px;
+}
+.infoNoct{
+	margin-bottom: 20px;
+}
+.btnVisite{
+	background-color: #dadada;
+	width: 195px;
+	height: 40px;
+	text-align: center;
+}
+.btnVisite a{
+	color: #2a1709;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 45px;
+	text-decoration: none;
+}
+.btnAchat{
+	background-color: #c82d00;
+	width: 175px;
+	height: 53px;
+	text-align: center;
+	margin-top: 10px;
+	padding:23px 10px;
+}
+.btnAchat a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+}
+/* FOOTER
+============================================ */
+footer{
+	background: url('img/background/black.png');
+	background-repeat: repeat;
+	overflow: hidden;
+	padding: 25px 0;
+}
+footer li a{
+	color: #fff;
+	font-family: "Lato";
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 23px;
+}
+.grid_1{
+	padding:0 40px 0 30px;
+	float: left;
+	border-right: 1px solid #3a3a3a;
+}
+.grid_2{
+	padding:0 55px 0 45px;
+	float: left;
+	border-right: 1px solid #3a3a3a;
+}
+.grid_3{
+	padding:0 55px 0 45px;
+	float: left;
+	border-right: 1px solid #3a3a3a;
+}
+.grid_4{
+	padding:0 25px 0 35px;
+	float: left;
+	border-right: 1px solid #3a3a3a;
+}
+.grid_5{
+	padding:0 13px 0 24px;
+	float: left;
+}
+/* PAGE HOME
+============================================ */
+.caption-slide{
+	background-color: #212121;
+	text-align: right;
+	padding:8px 15px 5px;
+	margin-bottom: 20px;
+}
+.caption-slide p{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "HelveticaRoman";
+}
+.caption-slide span{
+	color: #d23232;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.blockHome{
+	width: 368px;
+	float: left;
+}
+.blockHome:nth-child(2n+1){
+	margin-right: 22px;
+}
+.blockHome:first-child,
+.blockHome:nth-child(2){
+	margin-bottom: 37px;
+}
+.blockHome a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+}
+.blockHome h3{
+	font-family: "BodoniItalic";
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.captionBkOne,
+.captionBkTwo,
+.captionBkThree,
+.captionBkFour{
+	margin-bottom: 2px;
+	padding: 10px 0 10px 10px;
+	text-align: left;
+}
+.captionBkOne{
+	background-color: #f09006;
+}
+.captionBkTwo{
+	background-color: #9b59b6;
+}
+.captionBkThree{
+	background-color: #27ae60;
+}
+.captionBkFour{
+	background-color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
