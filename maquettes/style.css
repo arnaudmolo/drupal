@@ -525,14 +525,16 @@ h3.titreCollec:before{
 	height: 25px;
 	width: 22px;
 }
-.infoCollecDetails a.info{
+.infoCollecDetails a.info,
+.infoCollecDetailsExpo a.info{
 	color: #785611;
 	font-size: 13px;
 	text-decoration: none;
 	position: relative;
 	padding-left: 20px;
 }
-.infoCollecDetails a.info:before{
+.infoCollecDetails a.info:before,
+.infoCollecDetailsExpo a.info:before{
 	position: absolute;
 	display: block;
 	content: " ";
@@ -544,8 +546,74 @@ h3.titreCollec:before{
 	background-repeat: no-repeat;
 }
 
+/* EXPO DETAILS
+=================================== */
+img.featured_exposition
+{
+	margin:30px 35px 30px 0;
+	float: left;
+}
+#top-page-details-expo{
+	float: left;
+	margin: 60px auto 30px;
+	text-align: center;
+	width: 40%;
+}
+h2.titre-page-details-expo{
+	font-size: 27px;
+	color: #856b30;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+h2.sousTitre-page-details-expo{
+	color: #b2b69b;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: "HelveticaRoman";
+	font-weight: lighter;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#top-page-details-expo p.date{
+	color: #826430;
+	font-size: 14px;
+	font-weight: 100;
+	font-style: italic;
+}
+.infoCollecDetailsExpo{
+	width: 50%;
+}
+.infoCollecDetailsExpo a{
 
-
+}
+.text-align-right-expo{
+	width: 64%;
+	float: right;
+	margin-left: 37px;
+	text-align: right;
+}
+.btnDescComplExpo{
+	background:url('img/background/black.png');
+	background-repeat: repeat;
+	padding:15px 15px;
+	text-align: center;
+	width:415px;
+	margin-bottom: 13px;
+}
+.text-align-right-expo .btnDescComplExpo a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.text-align-right-expo a{
+	text-align: right;
+	text-decoration: none;
+	color: #807e7e;
+	font-size: 13px;
+	margin-right: 13px;
+}
 
 
 
