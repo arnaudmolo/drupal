@@ -15,8 +15,8 @@ regions[footer] = FOOTER
 regions[page_bottom] = PAGE BOTTOM
 
 ;--------------------- styles ----------------------------
-stylesheets[all][] = sass/main.scss
-stylesheets[print][] = sass/print.scss
+stylesheets[all][] = stylesheets/main.css
+stylesheets[print][] = stylesheets/print.scss
 
 ;--------------------- javascripts ------------------------
 scripts[] = scripts/theme-settings.js

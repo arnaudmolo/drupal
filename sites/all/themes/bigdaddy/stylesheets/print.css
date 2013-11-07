@@ -1,0 +1,77 @@
+/* line 5, ../sass/print.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-size: 1em;
+}
+
+/* line 15, ../sass/print.scss */
+body {
+  background: #fff;
+  font: 16px/20px "Times New Roman", serif;
+  padding-top: 60px;
+}
+
+/* line 21, ../sass/print.scss */
+#sidebar-first, #sidebar-second, #site-footer, [role="navigation"], .site-slogan {
+  display: none;
+}
+
+/* line 25, ../sass/print.scss */
+#site-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+/* line 33, ../sass/print.scss */
+.site-name {
+  background: #eee;
+  padding: 10px;
+  font-weight: bold;
+}
+/* line 37, ../sass/print.scss */
+.site-name a {
+  font: 16px/20px "Times New Roman", serif;
+  text-transform: uppercase;
+}
+/* line 40, ../sass/print.scss */
+.site-name a:link:after {
+  content: " - " attr(href) "";
+  display: block;
+  font-style: italic;
+  color: #8c8c8c;
+  text-transform: lowercase;
+}
+
+/* line 50, ../sass/print.scss */
+#middle-content, body.sidebar-first #middle-content, body.sidebar-second #middle-content {
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
+
+/* line 56, ../sass/print.scss */
+h1 {
+  font: 35px/40px "Times New Roman", serif;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+/* line 64, ../sass/print.scss */
+#middle-content a {
+  color: #0066cc;
+}
+
+/* line 68, ../sass/print.scss */
+#middle-content a:link:after {
+  content: " (" attr(href) ") ";
+}

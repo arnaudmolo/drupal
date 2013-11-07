@@ -22,3 +22,7 @@
 //  width: 250px;
 //  @include respond-to(handhelds) { width: 100% ;}
 // }
+
+.clear{
+  clear: both;
+}

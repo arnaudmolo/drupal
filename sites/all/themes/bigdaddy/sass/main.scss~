@@ -1,0 +1,27 @@
+// ----------------------------------------------------------------------
+// --- MAIN file importing all your existing SASS files
+// ----------------------------------------------------------------------
+
+
+// VENDORS
+// --------------------------------------------------
+@import "vendor/normalize";
+@import "vendor/compass";
+
+// CONFIG
+// --------------------------------------------------
+@import "config";
+
+// PARTIALS
+// --------------------------------------------------
+@import "./partials/mixins";
+@import "./partials/base";
+@import "./partials/global";
+@import "./partials/layout";
+@import "./partials/drupal";
+@import "./partials/forms";
+@import "./partials/animations";
+@import "./partials/theme-settings";
+body{
+  background-color: red;
+}

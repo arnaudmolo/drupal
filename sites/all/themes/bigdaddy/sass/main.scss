@@ -14,11 +14,16 @@
 
 // PARTIALS
 // --------------------------------------------------
-@import "mixins";
-@import "base";
-@import "global";
-@import "layout";
-@import "drupal";
-@import "forms";
-@import "animations";
-@import "theme-settings";
+@import "./partials/mixins";
+@import "./partials/base";
+@import "./partials/global";
+@import "./partials/layout";
+@import "./partials/drupal";
+@import "./partials/forms";
+@import "./partials/animations";
+@import "./partials/theme-settings";
+@import "./partials/fonts";
+
+// .messages.error{
+//   display: none;
+// }
