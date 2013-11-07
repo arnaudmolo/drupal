@@ -15,7 +15,9 @@ body {
   color: $base-font-color;
   font-family: $base-font;
 }
-
+li{
+  list-style: none;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
   font-weight: normal;
@@ -104,7 +106,7 @@ nav{
   font-size: 14px;
   padding:21px 9px 20px;
   line-height: 60px;
-  font-family: "Lato";
+  font-family: "HelveticaRoman";
   font-weight: 400;
 }
 .main-menu li a:hover{
@@ -144,7 +146,7 @@ nav{
 }
 .contentPage{
   float: left;
-  width: 759px;
+  width: 740px;
 }
 /* SIDEBAR
 ======================================= */
@@ -400,7 +402,6 @@ h2.titre-page{
 /* COLLCETIOSN DETAILS
 ======================================== */
 .contentPageCollecDetails{
-  width:740px;
   margin-left: 19px;
   float: left;
 }

@@ -76,7 +76,8 @@ nav{
 }
 .contentPage{
 	float: left;
-	width: 759px;
+	width: 745px;
+	
 }
 /* SIDEBAR
 ======================================= */
@@ -332,7 +333,6 @@ h2.titre-page{
 /* COLLCETIOSN DETAILS
 ======================================== */
 .contentPageCollecDetails{
-	width:740px;
 	margin-left: 19px;
 	float: left;
 }
