@@ -110,7 +110,6 @@ function bigdaddy_preprocess_node(&$vars) {
  *  A sequential array of variables to pass to the theme template.
  */
 function bigdaddy_preprocess_block(&$vars) {
-  die('oui c ici');
   /* BLOCK classes
   ---------------------------------------------------------------------- */
   // To add dynamically your own classes use $vars['classes_array'][] = 'my_class';

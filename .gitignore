@@ -3,6 +3,7 @@ sites/*/*settings*.php
 # Ignore paths that contain generated content.
 cache/
 sites/*/private
+.sass-cache
 
 # Ignore default text files
 .htaccess
