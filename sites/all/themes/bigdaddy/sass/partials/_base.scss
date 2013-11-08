@@ -316,14 +316,22 @@ footer li a{
   font-size: 20px;
   text-transform: uppercase;
 }
-.blockHome,
 .blockCol{
   width: 368px;
   float: left;
 }
+.blockHome{
+  width: 368px;
+  display: inline-block;
+  margin: 0;
+  height: 350px;
+  h2.titre-page-details{
+    margin: 0;
+  }
+}
 .blockHome:nth-child(2n+1),
 .blockCol:nth-child(2n+1){
-  margin-right: 22px;
+  margin-right: 4px;
 }
 .blockHome:first-child,
 .blockHome:nth-child(2),
@@ -343,6 +351,7 @@ footer li a{
   font-weight: lighter;
   text-transform: uppercase;
   font-style: italic;
+  text-align: center;
 }
 .captionBkOne,
 .captionBkTwo,

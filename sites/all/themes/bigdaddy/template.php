@@ -97,6 +97,9 @@ function bigdaddy_preprocess_page(&$vars) {
  */
 function bigdaddy_preprocess_node(&$vars) {
   
+  if ($vars["is_front"]) {
+    $vars["theme_hook_suggestions"][] = "node__front";
+  }
   /* NODE classes
   ---------------------------------------------------------------------- */
   // To add dynamically your own classes use $vars['classes_array'][] = 'my_class';
