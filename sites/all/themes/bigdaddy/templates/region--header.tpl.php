@@ -12,7 +12,7 @@
         <?php $menu_item = $menu_item['link'] ?>
         <?php if ($menu_item['access_callback'] === 'views_access'): ?>
           <li>
-            <a href="<?php echo $menu_item['link_path'] ?>">
+            <a href="/drupal/<?php echo str_replace('/node', '', $menu_item['link_path']) ?>">
               <?php echo $menu_item['link_title'] ?>
             </a>
           </li>

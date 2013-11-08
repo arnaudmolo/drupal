@@ -16,29 +16,7 @@
             </ul>
           </div>
           <div class="sideBlockInfo">
-            <h3>Informations pratiques</h3>
-            <div class="infoPr">
-              <p>Petit Palais, Musée des Beaux-Arts de la Ville de Paris</p>
-              <p>Avenue Winston Churchill</p> 
-              <p>75008 Paris</p>
-              <p>01 53 43 40 00</p>
-            </div>
-            <div class="infoOuv">
-              <p>Ouvert du mardi au dimanche de</p> 
-              <p>10h à 18h. Fermeture des caisses</p> 
-              <p>à 17h.</p>
-            </div>
-            <div class="infoNoct">
-              <span>Nocturne le jeudi jusqu'à 20h pour
-              les expositions temporaires.</span> 
-              <p>Fermé le lundi et les jours fériés.</p>
-            </div>
-            <div class="btnVisite">
-              <a href="#">Votre visite</a>
-            </div>
-            <div class="btnAchat">
-              <a href="#">EXPOSITIONS ACHETER VOTRE BILLET</a>
-            </div>
+
           </div><!--sideBlockInfo-->
         </div>
         <div class="contentPage">

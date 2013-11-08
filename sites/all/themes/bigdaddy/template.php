@@ -218,7 +218,6 @@ function bigdaddy_form_your_form_id_alter(&$form, &$form_state) {
 function bigdaddy_menu_link(array $variables){
   $element = $variables['element'];
   $sub_menu = '';
-
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
   }
